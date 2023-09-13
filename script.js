@@ -8,17 +8,17 @@ const thursday = document.querySelector('#thursday')
 const timeSpace = document.querySelector('#timeSpace')
 
 
-dropDownArrow.addEventListener('click',() =>{
-    weekDays.style.display = "block";
+// dropDownArrow.addEventListener('click',() =>{
+//     weekDays.style.display = "block";
    
-})
+// })
 
-weekDays.addEventListener('click',(e) =>{
-    weekDays.style.display = "none";
-    thursday.innerHTML = `${e.target.innerHTML}`
+// weekDays.addEventListener('click',(e) =>{
+//     weekDays.style.display = "none";
+//     thursday.innerHTML = `${e.target.innerHTML}`
 
 
-})
+// })
 
 var currentDate = new Date();
 var utcTime = currentDate.getTime();
